@@ -1,38 +1,21 @@
-.App {
-  text-align: center;
+body{
+  background-color : #FFB133!important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg{
+  background: url('./img/img.jpg')no-repeat right!important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.hide{
+  display: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar-brand h3{
+  font-family: 'Kaushan Script', cursive;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-brand h3:before{
+  content: '\f0ae';
+  font-family: "FontAwesome";
+  color: #25ABCE;
 }
